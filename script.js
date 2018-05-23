@@ -1,5 +1,5 @@
 function inBorder() {
-    return false;
+    return true;
 }
 
 function getCurrentTarget(event) {
@@ -16,7 +16,6 @@ function drag(event) {
 function drop(event) {
     current_target = undefined;
 }
-
 
 let current_target;
 
