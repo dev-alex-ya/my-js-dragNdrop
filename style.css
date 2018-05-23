@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.dragable{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left:150px;
+    top: 200px;
+    color: black;
+    background-color: yellow;
+    cursor: move;
+    padding: 10px;
+    border: 1px red solid;
+}
+
+#div1{
+    left:50px;
+    top: 20px;
+}
+
+#div2{
+    left:150px;
+    top: 50px;
+}
+
+#playground{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
